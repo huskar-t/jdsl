@@ -1,0 +1,12 @@
+{
+  "dbName": "db",
+  "sTableName": "stb",
+  "tableName": "$pointName$",
+  "keep": 365,
+  "tagsMap": {
+    "device": "$deviceID$",
+    "gateway": "$gatewayID$"
+  },
+  "payloadTemplate": "{\"$gatewayID$\":{\"$deviceID$\":{\"$pointName$\":\"$value$\"}}}",
+  "value": "$value$"
+}

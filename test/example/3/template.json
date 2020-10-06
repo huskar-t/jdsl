@@ -1,0 +1,11 @@
+{
+  "dbName": "db",
+  "sTableName": "stb",
+  "tableName": "zone",
+  "keep": 365,
+  "tagsMap": {
+    "type": "$ver$"
+  },
+  "payloadTemplate": "{\"$ver$\":\"$value$\"}",
+  "value": "$value$"
+}
